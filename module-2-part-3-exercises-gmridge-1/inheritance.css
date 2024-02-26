@@ -1,0 +1,26 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blueviolet
+}
+
+input {
+    font-family: inherit;
+    color: inherit;
+}
+
+.parent {
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.child {
+    padding: 10px;
+    border: inherit;
+    width: 50%;
+    background-color: inherit;
+}
+
+span {
+    font-family: initial;
+    color: initial;
+}

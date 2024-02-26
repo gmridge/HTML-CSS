@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+.alert {
+    color: darkmagenta;
+    border: 1px solid crimson;
+    border-radius: 6px;
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#text-input {
+    height: 4rem;
+    background-color: blanchedalmond;
+    border-radius: 6px;
+    border: 3px solid goldenrod;
+    margin: auto;
+}
+
+input[type="text"] {
+    color: chartreuse;
+    background-color: black;
+}

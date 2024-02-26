@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.padding-medium {
+    padding: 20px;
+}
+
+.background-light {
+    background-color: lightskyblue;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+    margin: 0;
+}
+
+.font-size-small {
+    font-size: small;
+}
+
+/* checked, good work, Georgia! */

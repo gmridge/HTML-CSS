@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: navy;
+    animation: bounce 1s infinite alternate;
+    border-image: linear-gradient(red, blue) 27 2 / 5px 5px / 5px round space;
+}
+
+@keyframes bounce {
+    from{
+        transform: translateY(0px) translateX(100px);
+    }
+    to{
+        transform: translateY(-100px) translateX(-100px);
+    }
+}

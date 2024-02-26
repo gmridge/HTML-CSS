@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
+      <a href="/index.html">Index</a>
+    </nav>
+  </header>
+  <main>
+    <form method="POST" action="http://localhost:3000/profile">
+      <div><label for="firstName">First name:</label>
+        <input type="text" id="firstName" name="firstname" Name value="Georgia" autocomplete="given-name">
+      </div>
+      <div><label for="lastName">Last name:</label>
+        <input type="text" id="lastName" name="lastNam
+e" value="Ridge">
+      </div>
+      <label>
+        <input type="checkbox" name="yeah" checked required>Yeah
+        <input type="checkbox" name="nah">Nah
+        <input type="checkbox" name="yeah" checked>Yeah<br><br>
+        <label><input type="radio" id="html" name="fav_language" value="HTML"></label>
+        <label for="week">Choose a day of the week</label>
+        <select id="Weekdays">
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+          <button type="submit">Submit form</button>
+    </form>
+  </main>
+  <footer>Copyright 2021 &copy;</footer>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <!--Tables are for tabular data. Schedules, etc.-->
+    <!--Cells can transform with colspan/rowspan to use multiple rows and columns-->
+    <!--col and colgroup allows structure to columns-->
+    <!--make sure you use extra elements like scope, thead, tfoot, tbody, etc for user accessibility-->
+    <style>
+        .right {
+            text-align: right;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <colgroup>
+            <col span="2">
+            <col class="right">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Role</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Occupation</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Main Character</th>
+            <td>Leslie Knope</td>
+            <td>40</td>
+            <td>Council Woman</td>
+        </tr>
+        <tr>
+            <th scope="row">Secondary</th>
+            <td colspan="2">Ron Swanson</td>
+            <td rowspan="2">Department Head</td>
+        </tr>
+        <tr>
+            <th scope="row">Villain</th>
+            <td colspan="2">Jeremy Jam</td>
+        </tr>
+    </tbody>
+    <tfoot></tfoot>
+    </table>
+</body>
+
+</html>

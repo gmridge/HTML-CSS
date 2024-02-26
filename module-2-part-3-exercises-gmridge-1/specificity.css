@@ -1,0 +1,28 @@
+p {
+    color: purple;
+}
+/* class selector overrules */
+.para {
+    color: pink;
+}
+
+/* id selectors overrule class selectors */
+#last {
+    color:black !important;
+}
+
+div ul li {
+    color: darkgreen;
+}
+
+ul li {
+    color: blue;
+}
+
+li {
+    color: brown;
+}
+
+div ul li {
+    color: deepskyblue;
+}

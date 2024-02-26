@@ -1,0 +1,74 @@
+
+nav{
+    background-color: transparent;
+    color: #187F58;
+    text-align: right;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+body {
+    background-clip: border-box;
+    background-color: #F3EED7;
+    border-radius: 20px;
+    border-color: #187F58;
+    color:#187F58;
+    margin-right: 320px; 
+}
+
+.title {
+    font-family: "YAFcfiBJMjY 0", _fb_, auto;
+    font-size: 160px;
+    color: rgb(9, 125, 76);
+    line-height: 180px;
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+}
+
+.experience {
+    text-align: left;
+    float: left;
+    position: absolute left;
+    position: sticky;
+    width: 50%;
+}
+
+.skills {
+    position: fixed;
+    top: 120px; 
+    right: 0; 
+    width: 300px; 
+    height: 600px;
+    padding: 20px; 
+    background-color: #187F58;
+    color: #F3EED7;
+}
+
+.education {
+    float: left;
+    position: absolute left;
+    position: sticky;
+    width: 60%;
+}
+
+footer {
+    background-color: transparent;
+    text-align: left;
+    width: 100%;
+    bottom: 0px;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}

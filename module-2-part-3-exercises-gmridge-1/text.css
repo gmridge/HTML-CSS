@@ -1,0 +1,54 @@
+@import url(https://fonts.google.com/specimen/Kdam+Thmor+Pro);
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+
+h1 {
+    background: linear-gradient(45deg, skyblue, orange);
+    /*  vendor/browser prefix. not fully standardized */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kdam';
+    font-size: 40px;
+}
+
+.shadow {
+    font-weight: bold;
+    color: blue;
+    text-shadow: 5px 2px 2px black;
+}
+
+.outline {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.three-d-text {
+    color: #000;
+    text-shadow: 
+        1px 1px red,
+        2px 2px red,
+        3px 3px red,
+        4px 4px red,
+        5px 5px red,
+        6px 6px red,
+        7px 7px red;
+        font-size: 40px;
+}
+
+.glowing {
+    color: #000;
+    text-shadow: 0 0 10px rgba(0, 255, 115, 0.8);
+    font-size: 40px;
+}
+
+.skewed {
+    transform: skewX(-20deg);
+}

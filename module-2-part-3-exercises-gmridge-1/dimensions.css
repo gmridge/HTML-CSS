@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+}
+
+html {
+    font-size: 30px;
+}
+
+div {
+    background-color: purple;
+    color: white;
+    margin: 5px;
+}
+
+.pixel {
+    width: 32px;
+    height: 32px;
+}
+
+.point {
+    width: 25pt;
+    height: 25pt;
+}
+
+.percentage {
+    width: 25%;
+    height: 10%;
+}
+
+.em {
+    width: 4em;
+    height: 4em;
+    font-size: 8px;
+}
+
+.rem {
+    width: 4rem;
+    height: 4rem;
+    font-size: 8px;
+}
+
+.vw {
+    width: 20vw;
+    height: 20vw;
+}
+
+.vh {
+    width: 20vh;
+    height: 20vh;
+}

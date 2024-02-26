@@ -1,0 +1,35 @@
+@media (min-width: 200px) {
+    .div1 {
+        background-color: plum;
+    }
+}
+
+@media (min-width: 400px) {
+    .div1 {
+        background-color: lightseagreen;
+    }
+}
+
+@media (orientation: landscape) {
+    .div2 {
+        background-color: purple;
+    }
+}
+
+@media (orientation: portrait) {
+    .div2 {
+        background-color: pink;
+    }
+}
+
+@media (min-resolution: 192dpi) {
+    .div3 {
+        background-color: lime;
+    }
+}
+
+@media (min-resolution: 200dpi) {
+    .div3 {
+        background-color: yellow;
+    }
+}

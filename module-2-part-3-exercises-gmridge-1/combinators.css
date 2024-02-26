@@ -1,0 +1,61 @@
+.content p {
+    color: red;
+}
+
+ul > li {
+    color: darkviolet;
+}
+
+ol > li {
+    color: orange;
+}
+
+form input {
+    background-color: chartreuse;
+}
+
+form input + input {
+    background-color: violet;
+}
+
+form input ~ * {
+    border-radius: 10%;
+}
+
+form > input {
+    border: 2px solid red;
+}
+
+form input:hover {
+    border: 2px solid blue;
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 1.8em;
+    vertical-align: -0.4em;
+}
+
+blockquote::after {
+    content: "”";
+    font-size: 1.8em;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+div:first-of-type {
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+li:nth-of-type(odd) {
+    text-decoration: underline;
+}
+
+div:not(.alert) {
+    background-color: lightseagreen;
+}
+
+li:nth-child(odd):hover {
+    background-color: aqua;
+}

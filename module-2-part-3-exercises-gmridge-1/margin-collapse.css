@@ -1,0 +1,10 @@
+.div1 {
+    margin-bottom: 50px;
+    background-color: skyblue;
+}
+
+.div2 {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: plum;
+}

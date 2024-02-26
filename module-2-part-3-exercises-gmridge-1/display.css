@@ -1,0 +1,35 @@
+.inline {
+    display: inline-block;
+    background-color: skyblue;
+}
+
+.block {
+    background-color: blue;
+}
+
+li {
+    display: inline-block;
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background-color: red;
+    width: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
